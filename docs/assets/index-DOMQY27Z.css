@@ -1,1 +1,0 @@
-*{box-sizing:border-box;margin:0;padding:0}.navbar{display:flex;align-items:center;justify-content:space-between}.logoimg{width:4rem;flex-wrap:wrap}.icons{display:flex;gap:1rem;padding:1rem;font-size:1.5rem}.coverimage{max-width:100%;height:auto;object-fit:cover}@media (width > 1024px){.coverimage{width:100%;max-height:60vh}}
