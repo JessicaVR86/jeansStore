@@ -3,39 +3,99 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between  ;
- 
+  justify-content: space-between;
 }
 .logoimg {
   width: 4rem;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-
-.icons{
-    display: flex;
-    gap: 1rem;
+.icons {
+  display: flex;
+  gap: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
-   
-
 }
 
-.coverimage{
-    max-width: 100%;
-    height: auto;    
-    object-fit: cover;   
+.coverimage {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.subhero {
+  display: block;
+  max-width: fit-content;
+}
+.herojeans {
+  display: block;
+  width: 100%;
 }
 
-@media(width >1024px){
-  .coverimage{
-    width: 
-    100%;
-    max-height: 60vh;  
-      
-    
-       
-       
+.ul_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
+.li_box {
+  list-style: none;
+  text-align: center;
+   color:brown;
+  align-content: center;
+  justify-content: center;
+}
+.images {
+  width: 90%;
+  object-fit: cover;
+}
+
+@media (width >1024px) {
+  .coverimage {
+    width: 100%;
+    max-height: 60vh;
+  }
+
+
+  .subhero {
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  margin: auto;
+  gap: 2.5em;
+
+  }
+
+  .herodiv{
+       width: 100%;
+      align-content: center;
+  justify-content: center;
+
+ 
+  }
+  .herojeans {
+     align-content: center;
+  justify-content: space-between;
+ 
+    width: 100%;
+    height: 40rem;
+
+    object-fit: cover;
+  }
+
+  .ul_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-top: 2rem;
+}
+.li_box {
+  list-style: none;
+  text-align: center;
+  color:brown;
+  align-content: center;
+  justify-content: center;
+}
+  .images {
+    width: 45%;
+    margin:auto;
+  }
 }
